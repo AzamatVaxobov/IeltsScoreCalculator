@@ -13,5 +13,8 @@ Console.Write("Reading Score: ");
 double reading = Convert.ToDouble(Console.ReadLine());
 Console.Write("Speaking Score: ");
 double speaking = Convert.ToDouble(Console.ReadLine());
+
+double overall = (listening+writing+reading+speaking)/4;
 }
+
 
